@@ -45,7 +45,7 @@ font-family: 'Hind', sans-serif;
   background-color: white;
   margin: 70px auto;
   padding: 30px;
-  text-align: center  
+  /* text-align: center   */
 }
 .questionContainer{
   display: flex;
@@ -70,9 +70,15 @@ font-size: 1.5rem;
   font-weight: 500;
 }
 #questionText{
+  text-align: center;
   font-size: 3rem;
  letter-spacing:.1rem;
  font-weight: 400;
+}
+
+#info{
+  font-size: .9rem;
+  
 }
 
 #displayBtn{

@@ -14,10 +14,13 @@ const Question = ({questionData}) => {
         <div  className='questionContainer'>
         <h5 id='title'>{title}</h5>
 
-        <button id='displayBtn' onClick={expand}> + </button>
+        <button id='displayBtn' onClick={expand}> 
+        {expandContent?"+":"-"}
+        
+         </button>
 
         </div>
-        {expandContent?null:<span>{info}</span>}
+        {expandContent?null:<p id='info'>{info}</p>}
 </div>
 
 
